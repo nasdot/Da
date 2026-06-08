@@ -13,7 +13,7 @@ col1, col2 = st.columns([1, 3])
 
 # --- Left side: Raw Data ---
 with col1:
-    st.subheader("Raw Data (first 10 rows)")
+    st.subheader("Raw Data")
     st.dataframe(df, height=400)
 
 # --- Right side: Interactive Dashboard ---
