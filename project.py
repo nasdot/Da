@@ -14,7 +14,7 @@ col1, col2 = st.columns([1, 3])
 # --- Left side: Raw Data ---
 with col1:
     st.subheader("Raw Data (first 10 rows)")
-    st.dataframe(df.head(10), height=400)
+    st.dataframe(df, height=400)
 
 # --- Right side: Interactive Dashboard ---
 with col2:
